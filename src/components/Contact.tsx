@@ -10,9 +10,9 @@ const linkIcons = [
 ];
 
 const linkHrefs = [
-  "mailto:ana@email.com",
-  "https://linkedin.com/in/ana",
-  "https://upwork.com",
+  "mailto:ana.malmeida08@gmail.com",
+  "https://www.linkedin.com/in/ana-luisa-mota-almeida/",
+  "https://www.upwork.com/freelancers/~01165990f48d6f832b",
 ];
 
 export default function Contact() {
@@ -46,7 +46,7 @@ export default function Contact() {
 
         <AnimatedSection delay={0.4}>
           <a
-            href={linkHrefs[0]}
+            href="mailto:ana.malmeida08@gmail.com"
             className="inline-flex items-center gap-2 px-8 py-4 rounded-full text-base font-medium transition-all duration-200 hover:scale-[1.03] hover:shadow-xl active:scale-[0.98] mb-16"
             style={{ backgroundColor: "#1e1712", color: "#f5f0e8" }}
           >

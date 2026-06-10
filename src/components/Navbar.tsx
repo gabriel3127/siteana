@@ -37,23 +37,23 @@ export default function Navbar() {
         animate={{ y: 0 }}
         transition={{ duration: 0.5, ease: "easeOut" }}
       >
-        <div className="max-w-6xl mx-auto px-5 flex items-center justify-between h-[72px]">
+        <div className="max-w-6xl mx-auto px-5 flex items-center justify-between h-[84px]">
           {/* Logo */}
           <a
             href="#"
-            className="font-playfair text-[#f5f0e8] text-xl font-bold tracking-wider"
+            className="font-playfair text-[#f5f0e8] text-2xl font-bold tracking-wider drop-shadow-[0_1px_4px_rgba(0,0,0,0.6)]"
             aria-label="Ana — home"
           >
             ANA.
           </a>
 
           {/* Desktop nav */}
-          <nav className="hidden md:flex items-center gap-8" aria-label="Main navigation">
+          <nav className="hidden md:flex items-center gap-9" aria-label="Main navigation">
             {links.map((l) => (
               <a
                 key={l.href}
                 href={l.href}
-                className="text-sm text-[#c2d4b2] hover:text-[#f5f0e8] transition-colors duration-200 tracking-wide"
+                className="text-[15px] text-[#c2d4b2] hover:text-[#f5f0e8] transition-colors duration-200 tracking-wide"
               >
                 {l.label}
               </a>
@@ -64,7 +64,7 @@ export default function Navbar() {
 
             <a
               href="#contact"
-              className="text-sm bg-[#c97a5d] text-[#f5f0e8] px-5 py-2.5 rounded-full hover:bg-[#a85e43] transition-colors duration-200 font-medium"
+              className="text-[15px] bg-[#c97a5d] text-[#f5f0e8] px-6 py-3 rounded-full hover:bg-[#a85e43] transition-colors duration-200 font-medium"
             >
               {T.nav.cta}
             </a>

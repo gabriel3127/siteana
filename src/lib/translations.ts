@@ -15,8 +15,8 @@ const t = {
       h1_1: "Where",
       h1_accent1: "Strategy",
       h1_2: "Meets",
-      h1_accent2: "Craft.",
-      sub: "I help businesses turn complex ideas into clear, well-executed projects — bridging strategy, design thinking, and human-centered research.",
+      h1_accent2: "Creativity.",
+      sub: "I help businesses turn ideas into clear, well-executed projects — bridging strategy, design thinking, and human-centered research.",
       cta1: "Work with me",
       cta2: "See my work",
       scroll: "Scroll",
@@ -28,21 +28,21 @@ const t = {
       quoteAccent1: "teams create",
       quoteAccent2: "think",
       quoteAccent3: "deliver",
-      stat1_value: "4+",
-      stat1_label: "Years of Experience",
-      stat2_value: "15+",
-      stat2_label: "Projects Delivered",
+      stat1_value: "3×",
+      stat1_label: "Work & Travel USA",
+      stat2_value: "2+",
+      stat2_label: "Years of Internships",
       stat3_value: "3",
-      stat3_label: "Continents Served",
-      p1: "I'm a Creative Project Manager and UX Researcher who thrives at the intersection of structure and creativity. My work lives in the space between a messy idea and a polished, functional outcome.",
-      p2: "Whether I'm orchestrating a complex product launch, mapping user journeys in Figma, or designing workflows in Miro, I bring the same energy: clear thinking, genuine curiosity, and an obsession with making things work beautifully.",
-      p3: "I've partnered with startups, agencies, and established teams — always as the person who connects the dots between what the client needs, what the team can build, and what users actually want.",
+      stat3_label: "Continents Connected",
+      p1: "I'm the kind of person who turns almost everything into a project. Whether it's learning a new skill, planning a trip, redesigning a space, or picking up a creative hobby — I love the process of exploring an idea and bringing it to life.",
+      p2: "Traveling has always been one of my biggest passions. Through three Work & Travel seasons in the United States, I had the opportunity to live, work, and connect with people from all over the world — which expanded my perspective and sparked my interest in international and multicultural projects.",
+      p3: "What motivates me most is working on things that have a positive impact on people. I genuinely enjoy helping others — whether that's supporting a team, sharing knowledge, solving a problem, or simply being there when someone needs a hand.",
     },
     services: {
       label: "Services",
       title: "How I Can Help",
       subtitle:
-        "Four disciplines, one goal: projects that deliver results and experiences that resonate.",
+        "Five disciplines, one goal: projects that deliver results and experiences that resonate.",
       items: [
         {
           number: "01",
@@ -89,34 +89,45 @@ const t = {
             "User personas & journey mapping",
           ],
         },
+        {
+          number: "05",
+          title: "Executive Assistant",
+          description:
+            "Behind every high-performing executive is someone keeping everything organized, on time, and running smoothly. That's where I come in.",
+          bullets: [
+            "Task management & meeting scheduling",
+            "Email management & general research",
+            "Travel planning & Pinterest board curation",
+          ],
+        },
       ],
     },
     experience: {
       label: "Experience",
       title1: "Turning Ideas Into",
       title2: "Real Outcomes",
-      p1: "My background spans product development, creative operations, and UX research — working with international teams, startups, and agencies across multiple industries.",
+      p1: "My background combines project management, UX research, and digital product development. Through projects, international experiences, and creative initiatives, I've developed a passion for helping ideas move from concept to execution.",
       p2: "I bring both the strategic clarity to define what needs to happen and the operational discipline to make sure it does.",
       cta: "Download Full CV",
       cta_aria: "Download full CV (PDF)",
       items: [
         {
-          period: "2023 — Present",
-          role: "Creative Project Manager",
-          org: "Freelance & Upwork",
-          note: "International clients · Remote",
+          period: "Apr 2025 — Dec 2025",
+          role: "Project Management Intern",
+          org: "Eldorado Research Institute",
+          note: "Agile · Jira · Confluence · Hybrid",
         },
         {
-          period: "2022 — 2023",
-          role: "UX Researcher & Product Ops",
-          org: "Project Ingrador",
-          note: "University research project · Figma & Miro",
+          period: "Jan 2023 — Nov 2023",
+          role: "UX/UI Design Intern",
+          org: "Eldorado Research Institute",
+          note: "Figma · UX Research · Remote",
         },
         {
-          period: "2021 — 2022",
-          role: "Project & Operations Analyst",
-          org: "Cortinas Project",
-          note: "End-to-end execution · Workflow design",
+          period: "Seasonal 2023 — 2026",
+          role: "Customer Experience Assistant",
+          org: "Snowshoe Mountain Resort, USA",
+          note: "Work & Travel · Multicultural teams · On-site",
         },
       ],
     },
@@ -128,19 +139,21 @@ const t = {
       items: [
         {
           id: "01",
-          title: "The Clarity Ebook",
-          type: "Content & Design Strategy",
+          title: "Let's Learn Brazilian",
+          type: "Content & Design",
           description:
-            "A structured ebook project — from content architecture to visual design direction. Full end-to-end creative project management.",
-          tags: ["Content Strategy", "Design", "Project Management"],
+            "Beginner-friendly eBook focused on teaching Brazilian Portuguese through real-life travel and everyday communication scenarios.",
+          tags: ["Canva", "Content Strategy", "Design"],
+          link: "https://www.canva.com/design/DAGqjwnUcBA/Aok0NiPjVnAVUumEmdgJBA/view",
         },
         {
           id: "02",
-          title: "Ingrador — University Project",
-          type: "UX Research & Prototype",
+          title: "Track+ — Dispatch Tracking System",
+          type: "UX / Product Design",
           description:
-            "Comprehensive UX research: user interviews, persona mapping, journey design, and interactive Figma prototype for a university product.",
-          tags: ["UX Research", "Figma", "Prototyping"],
+            "End-to-end traceability and dispatch management system for a food production company, developed as a college integrative project.",
+          tags: ["Miro", "UX Research", "Product Design"],
+          link: "https://miro.com/app/board/uXjVJTcNvqI=/?share_link_id=47377602962",
         },
         {
           id: "03",
@@ -149,6 +162,7 @@ const t = {
           description:
             "Deep-dive benchmarking and competitor UX analysis — identifying opportunities, design patterns, and actionable recommendations.",
           tags: ["UX Analysis", "Research", "Strategy"],
+          link: "",
         },
         {
           id: "04",
@@ -157,6 +171,7 @@ const t = {
           description:
             "Full project management and execution — visual workflow in Miro, team coordination, and final delivery oversight.",
           tags: ["Miro", "Operations", "Workflow Design"],
+          link: "",
         },
       ],
     },
@@ -165,32 +180,32 @@ const t = {
       title1: "From First Contact",
       title2: "to First Delivery",
       subtitle:
-        "Hiring a project manager should feel as well-managed as the projects I run. Here's exactly what happens when you reach out.",
-      cta: "Start the process →",
+        "Whether you already have a clear plan or are still figuring things out — here's how we get started.",
+      cta: "Send me a message →",
       steps: [
         {
           number: "01",
-          title: "I Review Your Site & CV",
+          title: "Let's Connect",
           description:
-            "Before anything else, I take time to understand your business, brand, and goals. I review your existing materials so our first conversation is already informed and relevant.",
+            "Send me a message and tell me a little about your project, idea, or challenge. This is our first opportunity to explore how I can support you.",
         },
         {
           number: "02",
-          title: "Initial Email",
+          title: "Discovery Call",
           description:
-            "I reach out with a personalized message — telling you what I noticed about your business, how I see I can help, and what working together could look like.",
+            "We'll schedule a conversation to get to know each other, dive deeper into your goals, and discuss the best approach for your project.",
         },
         {
           number: "03",
-          title: "1:1 Discovery Call",
+          title: "Proposal & Planning",
           description:
-            "We meet — no pitch, just a real conversation. I learn about your challenges, your team, and your vision. You get to ask me anything. We figure out together if it's a good match.",
+            "Based on our conversation, I'll put together a tailored proposal outlining the scope, timeline, and next steps.",
         },
         {
           number: "04",
-          title: "Proposal & Contract",
+          title: "Let's Build It",
           description:
-            "I send a clear, tailored proposal with scope, timeline, and investment. Once we align, the contract is signed and we get to work.",
+            "With everything aligned, it's time to turn ideas into action. I prioritize clear communication, collaboration, and transparency throughout.",
         },
       ],
     },
@@ -201,11 +216,11 @@ const t = {
       subtitle:
         "Whether you have a clear project or just a challenge that needs solving — I'd love to hear from you.",
       cta: "Send me a message",
-      footer: "© 2025 Ana. Designed with intention.",
+      footer: "© 2025 Ana Luisa. Designed with intention.",
       links: [
-        { label: "Email", value: "ana@email.com" },
-        { label: "LinkedIn", value: "linkedin.com/in/ana" },
-        { label: "Upwork", value: "upwork.com/fl/ana" },
+        { label: "Email", value: "ana.malmeida08@gmail.com" },
+        { label: "LinkedIn", value: "linkedin.com/in/ana-luisa-mota-almeida" },
+        { label: "Upwork", value: "View my Upwork Profile" },
       ],
     },
     floating: "Let's work together",
@@ -226,7 +241,7 @@ const t = {
       h1_accent1: "Estratégia",
       h1_2: "Encontra",
       h1_accent2: "Criatividade.",
-      sub: "Ajudo empresas a transformar ideias complexas em projetos claros e bem executados — conectando estratégia, design thinking e pesquisa centrada no usuário.",
+      sub: "Ajudo empresas a transformar ideias em projetos claros e bem executados — conectando estratégia, design thinking e pesquisa centrada no usuário.",
       cta1: "Trabalhe comigo",
       cta2: "Ver meu trabalho",
       scroll: "Rolar",
@@ -238,21 +253,21 @@ const t = {
       quoteAccent1: "times criam",
       quoteAccent2: "pensam",
       quoteAccent3: "entregam",
-      stat1_value: "4+",
-      stat1_label: "Anos de Experiência",
-      stat2_value: "15+",
-      stat2_label: "Projetos Entregues",
+      stat1_value: "3×",
+      stat1_label: "Work & Travel EUA",
+      stat2_value: "2+",
+      stat2_label: "Anos de Estágio",
       stat3_value: "3",
-      stat3_label: "Continentes Atendidos",
-      p1: "Sou Creative Project Manager e UX Researcher, e me sinto em casa na interseção entre estrutura e criatividade. Meu trabalho vive no espaço entre uma ideia bagunçada e um resultado polido e funcional.",
-      p2: "Seja orquestrando um lançamento de produto, mapeando jornadas de usuário no Figma ou desenhando fluxos de trabalho no Miro, eu trago a mesma energia: pensamento claro, curiosidade genuína e uma obsessão por fazer as coisas funcionarem de forma bonita.",
-      p3: "Já trabalhei com startups, agências e times consolidados — sempre como a pessoa que conecta o que o cliente precisa, o que o time consegue construir e o que os usuários realmente querem.",
+      stat3_label: "Continentes Conectados",
+      p1: "Sou o tipo de pessoa que transforma quase tudo em projeto. Seja aprender uma nova habilidade, planejar uma viagem, redesenhar um espaço ou começar um hobby criativo — adoro o processo de explorar uma ideia e fazer ela ganhar vida.",
+      p2: "Viajar sempre foi uma das minhas maiores paixões. Através de três temporadas de Work & Travel nos Estados Unidos, tive a oportunidade de viver, trabalhar e me conectar com pessoas do mundo inteiro — o que ampliou minha perspectiva e despertou meu interesse em projetos internacionais e multiculturais.",
+      p3: "O que mais me motiva é trabalhar em projetos que gerem impacto positivo nas pessoas. Gosto genuinamente de ajudar — seja apoiando um time, compartilhando conhecimento, resolvendo um problema ou simplesmente estando presente quando alguém precisa.",
     },
     services: {
       label: "Serviços",
       title: "Como Posso Ajudar",
       subtitle:
-        "Quatro disciplinas, um objetivo: projetos que entregam resultados e experiências que ficam na memória.",
+        "Cinco disciplinas, um objetivo: projetos que entregam resultados e experiências que ficam na memória.",
       items: [
         {
           number: "01",
@@ -299,34 +314,45 @@ const t = {
             "Personas e mapeamento de jornada do usuário",
           ],
         },
+        {
+          number: "05",
+          title: "Assistente Executiva",
+          description:
+            "Por trás de todo executivo de alta performance há alguém mantendo tudo organizado, no prazo e funcionando sem atritos. É aí que entro.",
+          bullets: [
+            "Gestão de tarefas e agendamento de reuniões",
+            "Gestão de e-mails e pesquisas gerais",
+            "Planejamento de viagens & curadoria de Pinterest",
+          ],
+        },
       ],
     },
     experience: {
       label: "Experiência",
       title1: "Transformando Ideias em",
       title2: "Resultados Reais",
-      p1: "Minha trajetória abrange desenvolvimento de produto, operações criativas e pesquisa de UX — trabalhando com times internacionais, startups e agências em múltiplos segmentos.",
+      p1: "Minha trajetória combina gestão de projetos, pesquisa de UX e desenvolvimento de produtos digitais. Por meio de projetos, experiências internacionais e iniciativas criativas, desenvolvi uma paixão por ajudar ideias a saírem do conceito e virarem realidade.",
       p2: "Trago tanto a clareza estratégica para definir o que precisa acontecer quanto a disciplina operacional para garantir que aconteça.",
       cta: "Baixar Currículo Completo",
       cta_aria: "Baixar currículo completo (PDF)",
       items: [
         {
-          period: "2023 — Atual",
-          role: "Creative Project Manager",
-          org: "Freelance & Upwork",
-          note: "Clientes internacionais · Remoto",
+          period: "Abr 2025 — Dez 2025",
+          role: "Estagiária de Gestão de Projetos",
+          org: "Instituto de Pesquisas Eldorado",
+          note: "Ágil · Jira · Confluence · Híbrido",
         },
         {
-          period: "2022 — 2023",
-          role: "UX Researcher & Operações de Produto",
-          org: "Projeto Ingrador",
-          note: "Projeto de pesquisa universitária · Figma & Miro",
+          period: "Jan 2023 — Nov 2023",
+          role: "Estagiária de UX/UI Design",
+          org: "Instituto de Pesquisas Eldorado",
+          note: "Figma · Pesquisa de UX · Remoto",
         },
         {
-          period: "2021 — 2022",
-          role: "Analista de Projetos e Operações",
-          org: "Projeto Cortinas",
-          note: "Execução completa · Design de fluxo",
+          period: "Temporadas 2023 — 2026",
+          role: "Assistente de Experiência do Cliente",
+          org: "Snowshoe Mountain Resort, EUA",
+          note: "Work & Travel · Times multiculturais · Presencial",
         },
       ],
     },
@@ -338,19 +364,21 @@ const t = {
       items: [
         {
           id: "01",
-          title: "The Clarity Ebook",
-          type: "Estratégia de Conteúdo e Design",
+          title: "Let's Learn Brazilian",
+          type: "Conteúdo & Design",
           description:
-            "Projeto de ebook do início ao fim — da arquitetura de conteúdo à direção visual. Gestão criativa completa do projeto.",
-          tags: ["Estratégia de Conteúdo", "Design", "Gestão de Projetos"],
+            "eBook para iniciantes focado em ensinar português brasileiro por meio de situações reais de viagem e comunicação do cotidiano.",
+          tags: ["Canva", "Estratégia de Conteúdo", "Design"],
+          link: "https://www.canva.com/design/DAGqjwnUcBA/Aok0NiPjVnAVUumEmdgJBA/view",
         },
         {
           id: "02",
-          title: "Ingrador — Projeto Universitário",
-          type: "Pesquisa de UX & Protótipo",
+          title: "Track+ — Sistema de Rastreamento",
+          type: "UX / Design de Produto",
           description:
-            "Pesquisa de UX completa: entrevistas com usuários, mapeamento de personas, design de jornada e protótipo interativo no Figma.",
-          tags: ["Pesquisa de UX", "Figma", "Prototipação"],
+            "Sistema de rastreabilidade e gestão de expedição para uma empresa de produção de alimentos, desenvolvido como projeto integrador da faculdade.",
+          tags: ["Miro", "Pesquisa de UX", "Design de Produto"],
+          link: "https://miro.com/app/board/uXjVJTcNvqI=/?share_link_id=47377602962",
         },
         {
           id: "03",
@@ -359,6 +387,7 @@ const t = {
           description:
             "Análise aprofundada de UX dos concorrentes — identificando oportunidades, padrões de design e recomendações acionáveis.",
           tags: ["Análise de UX", "Pesquisa", "Estratégia"],
+          link: "",
         },
         {
           id: "04",
@@ -367,6 +396,7 @@ const t = {
           description:
             "Gestão e execução completa do projeto — organização visual no Miro, coordenação do time e acompanhamento da entrega final.",
           tags: ["Miro", "Operações", "Design de Fluxo"],
+          link: "",
         },
       ],
     },
@@ -375,32 +405,32 @@ const t = {
       title1: "Do Primeiro Contato",
       title2: "à Primeira Entrega",
       subtitle:
-        "Contratar uma project manager deve ser tão bem gerenciado quanto os projetos que eu conduzo. Veja exatamente o que acontece quando você entra em contato.",
-      cta: "Iniciar o processo →",
+        "Seja com um plano definido ou ainda descobrindo o caminho — veja como começamos juntos.",
+      cta: "Me manda uma mensagem →",
       steps: [
         {
           number: "01",
-          title: "Analiso Seu Site e Currículo",
+          title: "Vamos nos Conectar",
           description:
-            "Antes de tudo, dedico tempo para entender seu negócio, marca e objetivos. Analiso seus materiais existentes para que nossa primeira conversa já seja informada e relevante.",
+            "Me manda uma mensagem contando um pouco sobre seu projeto, ideia ou desafio. Essa é nossa primeira oportunidade de explorar como posso te apoiar.",
         },
         {
           number: "02",
-          title: "Contato Inicial por E-mail",
+          title: "Call de Discovery",
           description:
-            "Entro em contato com uma mensagem personalizada — falando sobre o que observei no seu negócio, como posso ajudar e como seria trabalharmos juntos.",
+            "Vamos marcar uma conversa para nos conhecer melhor, entender seus objetivos com mais profundidade e discutir a melhor abordagem para o seu projeto.",
         },
         {
           number: "03",
-          title: "Call 1:1 de Discovery",
+          title: "Proposta & Planejamento",
           description:
-            "Nos encontramos — sem pitch, apenas uma conversa real. Entendo seus desafios, seu time e sua visão. Você pode me perguntar qualquer coisa. Juntos descobrimos se faz sentido trabalharmos juntos.",
+            "Com base na nossa conversa, preparo uma proposta personalizada com escopo, prazo e próximos passos.",
         },
         {
           number: "04",
-          title: "Proposta e Contrato",
+          title: "Vamos Construir",
           description:
-            "Envio uma proposta clara e personalizada com escopo, prazo e investimento. Com alinhamento, assinamos o contrato e colocamos o projeto para rodar.",
+            "Com tudo alinhado, é hora de transformar ideias em ação. Priorizo comunicação clara, colaboração e transparência em todo o processo.",
         },
       ],
     },
@@ -411,11 +441,11 @@ const t = {
       subtitle:
         "Seja com um projeto definido ou apenas um desafio para resolver — adoraria ouvir você.",
       cta: "Me manda uma mensagem",
-      footer: "© 2025 Ana. Projetado com intenção.",
+      footer: "© 2025 Ana Luisa. Projetado com intenção.",
       links: [
-        { label: "E-mail", value: "ana@email.com" },
-        { label: "LinkedIn", value: "linkedin.com/in/ana" },
-        { label: "Upwork", value: "upwork.com/fl/ana" },
+        { label: "E-mail", value: "ana.malmeida08@gmail.com" },
+        { label: "LinkedIn", value: "linkedin.com/in/ana-luisa-mota-almeida" },
+        { label: "Upwork", value: "Ver meu Perfil no Upwork" },
       ],
     },
     floating: "Vamos trabalhar juntos",

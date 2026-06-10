@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { AnimatedSection, StaggerContainer, StaggerItem } from "./AnimatedSection";
 import { useLanguage } from "@/lib/LanguageContext";
 
@@ -51,7 +52,7 @@ export default function About() {
               <p>{a.p3}</p>
             </div>
             <div className="flex flex-wrap gap-2 mt-8">
-              {["Figma", "Miro", "Jira", "Notion", "Trello", "UX Research", "Agile", "AI tools"].map((tag) => (
+              {["Figma", "Miro", "Jira", "Trello", "Confluence", "Notion", "Canva", "Blender", "UX Research", "Agile"].map((tag) => (
                 <span
                   key={tag}
                   className="text-xs px-3 py-1.5 rounded-full border"
@@ -63,6 +64,18 @@ export default function About() {
             </div>
           </AnimatedSection>
         </div>
+
+        {/* Work photo */}
+        <AnimatedSection delay={0.5}>
+          <div className="relative w-full aspect-[16/7] rounded-2xl overflow-hidden mt-16">
+            <Image
+              src="/ana_work1.jpg"
+              alt="Ana working"
+              fill
+              className="object-cover object-center"
+            />
+          </div>
+        </AnimatedSection>
       </div>
     </section>
   );
